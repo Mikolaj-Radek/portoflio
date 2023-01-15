@@ -1,0 +1,39 @@
+@keyframes arrow {
+    0% {top: 50px;}
+    50% {top: 100px;}
+    100% {top: 50px;}
+}
+.wrapper-about{
+    display: flex;  
+    justify-content: space-around;
+    padding-top: 100px;
+    font-family: Karla;
+}
+.text-name{
+    font-weight: bold;
+}
+.my-name{
+    font-size: 54px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.github,
+.linkedin{
+    background-color: #2bc9c7;
+    padding: 7px;
+    border-radius: 7px;
+    color: black;
+}
+.arrow{
+    position: absolute;
+    font-size: 240px;
+    color: #c3e8e8;
+    right: 600px;    
+    animation: arrow 4s infinite;
+}
