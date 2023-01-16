@@ -1,0 +1,8 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 100px 0;
+}

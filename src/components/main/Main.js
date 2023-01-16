@@ -1,9 +1,15 @@
 import "./main.css";
-import AboutMe from "../about/AboutMe";
+import Name from "../start/name";
+import About from "../about/about";
+import Projects from "../projects/projects";
+import Contact from "../contact/contact";
 function App() {
   return (
     <div className="main">
-      <AboutMe />
+      <Name />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }

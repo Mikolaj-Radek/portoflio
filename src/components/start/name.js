@@ -1,15 +1,15 @@
-import "./aboutMe.css";
+import "./name.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-function App() {
+function Name() {
   return (
     <div className="wrapper-about">
       <div className="left-box-about">
         <p className="text-name">Cześć! Nazywam się</p>
         <h1 className="my-name">Mikołaj Radek</h1>
-        <p className="what-i-do">Zajmuje się tworzeniem stron internetowych.</p>
+        <p className="what-i-do">Zajmuje się tworzeniem stron internetowych</p>
         <div className="social">
           <a
             href="https://github.com/Mikolaj-Radek"
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default Name;

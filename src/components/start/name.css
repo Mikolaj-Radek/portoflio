@@ -1,11 +1,9 @@
 @keyframes arrow {
-    0% {top: 50px;}
-    50% {top: 100px;}
-    100% {top: 50px;}
+    0% {top: -100px;  opacity: 0;}
+    50% {top: 150px; opacity: 0.1;}
+    100% {top: -100px; opacity: 0;}
 }
 .wrapper-about{
-    display: flex;  
-    justify-content: space-around;
     padding-top: 100px;
     font-family: Karla;
 }
@@ -16,8 +14,11 @@
     font-size: 54px;
     font-weight: bold;
     margin: 10px 0;
+    font-family: Rubik;
 }
-
+.left-box-about{
+    margin-left: 100px;
+}
 .social{
     display: flex;
     gap: 15px;
@@ -25,7 +26,7 @@
 }
 .github,
 .linkedin{
-    background-color: #2bc9c7;
+    background-color: #cc7544;
     padding: 7px;
     border-radius: 7px;
     color: black;
@@ -33,7 +34,7 @@
 .arrow{
     position: absolute;
     font-size: 240px;
-    color: #c3e8e8;
-    right: 600px;    
-    animation: arrow 4s infinite;
+    color: #cc7544;
+    right: 550px;    
+    animation: arrow 8s infinite;
 }
