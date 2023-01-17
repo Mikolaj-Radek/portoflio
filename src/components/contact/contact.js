@@ -7,18 +7,24 @@ function Contact() {
       <div className="contact">
         <form
           id="contactform"
-          action="https://formsubmit.io/send/put your email here"
+          action="https://formsubmit.io/send/radek_mikolaj@o2.pl"
           method="POST"
           className="contact-form"
         >
           <label htmlFor="email" className="email">
             Twój e-mail *
           </label>
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" required />
           <label htmlFor="comment" className="comment">
-            Wiadomość
+            Wiadomość *
           </label>
-          <textarea id="comment" name="comment" rows="8" />
+          <textarea id="comment" name="comment" rows="8" required />
+          <input
+            type="hidden"
+            name="_redirect"
+            id="name"
+            value="http://www.filmgolda.pl/"
+          />
           <input type="submit" value="Submit" className="submit" />
         </form>
       </div>

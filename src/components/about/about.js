@@ -1,5 +1,5 @@
 import "./about.css";
-import Name from "../start/name";
+import myfoto from "../../zdj/myphoto.jpg";
 function About() {
   return (
     <div className="about">
@@ -14,10 +14,7 @@ function About() {
         </p>
       </div>
       <div className="my-foto">
-        <img
-          src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
-          className="img"
-        />
+        <img src={myfoto} className="img" />
       </div>
     </div>
   );

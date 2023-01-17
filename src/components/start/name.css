@@ -1,8 +1,4 @@
-@keyframes arrow {
-    0% {top: -100px;  opacity: 0;}
-    50% {top: 150px; opacity: 0.1;}
-    100% {top: -100px; opacity: 0;}
-}
+
 .wrapper-about{
     padding-top: 100px;
     font-family: Karla;
@@ -31,10 +27,16 @@
     border-radius: 7px;
     color: black;
 }
-.arrow{
-    position: absolute;
-    font-size: 240px;
-    color: #cc7544;
-    right: 550px;    
-    animation: arrow 8s infinite;
+
+@media screen and (max-width:520px) {
+    .wrapper-about{
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    .left-box-about{
+        margin-left: 10px;
+    }
+    .my-name{
+        font-size: 40px;
+    }
 }

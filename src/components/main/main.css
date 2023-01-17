@@ -5,3 +5,8 @@
     height: auto;
     border-radius: 10px;
 }
+@media screen and (max-width:520px) {
+    .main{
+        width: 100%;
+    }
+}

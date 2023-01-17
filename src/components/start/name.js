@@ -29,11 +29,6 @@ function Name() {
           </a>
         </div>
       </div>
-      <div className="right-box-about">
-        <a href="">
-          <FontAwesomeIcon icon={faArrowDown} className="arrow" />
-        </a>
-      </div>
     </div>
   );
 }

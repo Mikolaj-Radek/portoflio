@@ -44,3 +44,21 @@
     font-family: Karla;
     cursor: pointer;
 }
+@media screen and (max-width:670px) {
+    #email,
+    #comment{
+        width: 400px;
+    }
+}
+@media screen and (max-width:570px) {
+    #email,
+    #comment{
+        width: 300px;
+    }
+}
+@media screen and (max-width:470px) {
+    #email,
+    #comment{
+        width: 200px;
+    }
+}
