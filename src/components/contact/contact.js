@@ -7,7 +7,7 @@ function Contact() {
       <div className="contact">
         <form
           id="contactform"
-          action="https://formsubmit.io/send/radek_mikolaj@o2.pl"
+          action="https://formsubmit.io/send/mikolajradek1@gmail.com"
           method="POST"
           className="contact-form"
         >
@@ -23,7 +23,7 @@ function Contact() {
             type="hidden"
             name="_redirect"
             id="name"
-            value="http://www.filmgolda.pl/"
+            value="https://portoflio-dziekuje.netlify.app/"
           />
           <input type="submit" value="Submit" className="submit" />
         </form>
