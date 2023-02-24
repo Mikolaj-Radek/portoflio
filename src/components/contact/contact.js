@@ -4,6 +4,8 @@ function Contact() {
   return (
     <div className="contact-wrapper">
       <p className="contact-me">Skontaktuj się ze mną!</p>
+      <p className="email contact-me kontakt">Email: mikolajradek1@gmail.com</p>
+      <p className="email contact-me kontakt">Telefon: 530395175</p>
       <div className="contact">
         <form
           id="contactform"
